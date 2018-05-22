@@ -1,0 +1,5 @@
+AuthName "Esta zona es exclusiva para proveedores."
+AuthType Basic
+AuthUserFile /etc/apache2/.seguridad/.passwd
+AuthGroupFile /etc/apache2/.seguridad/.grupos
+Require group proveedores

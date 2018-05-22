@@ -1,0 +1,5 @@
+AuthName "Zona exclusiva para clientes registrados"
+AuthType Basic
+AuthUserFile /etc/apache2/.seguridad/.passwd
+AuthGroupFile /etc/apache2/.seguridad/.grupos
+Require group clientes
